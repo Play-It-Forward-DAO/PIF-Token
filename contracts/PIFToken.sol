@@ -8,8 +8,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract PIFToken is ERC20, ERC20Burnable, ERC20Capped, Ownable {
     
-    constructor() ERC20("PIF Token", "PIF") ERC20Capped(1_000_000_000_000 ether) {
-        ERC20._mint(_msgSender(), 1_000_000_000_000 ether);
+    constructor() ERC20("Play It Forward DAO", "PIF") ERC20Capped(1_000_000_000 ether) {
+        ERC20._mint(_msgSender(), 1_000_000_000 ether);
     }
 
     function mint(uint256 amount) external onlyOwner {
