@@ -1,0 +1,12 @@
+# vscode
+.vscode
+
+# hardhat
+artifacts
+cache
+node_modules
+
+# secrets
+secrets.json
+.env
+No newline at end of file
