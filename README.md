@@ -1,1 +1,2 @@
-# PIF-Token-Kovan
+# PIF Token
+
